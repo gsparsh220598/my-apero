@@ -1,8 +1,8 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://sparshgupta22.netlify.app"
 theme = "hugo-apero"
-languageCode = "en"
-title = "Hugo Apéro"
-author = "Alison Hill"
+languageCode = "en-us"
+title = "Sparsh Gupta"
+author = "Sparsh Gupta"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 #disqusShortname = "" # see params.comments to use utterances or giscus instead of Disqus
@@ -28,12 +28,12 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
+  orgName = "Sparsh Gupta"
   orgLocal = "Anywhere"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  logo = "/img/home.png"
+  mainSections = ["blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -43,12 +43,12 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "Gsparsh220598Mo"
   
   # use a built-in color theme
   # one of: earth / forest / grayscale / magma / paper / peach / plum /
   #         poppy / primer / sky / violet / water 
-  theme = "sky"
+  theme = "forest"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -90,12 +90,12 @@ enableEmoji = true
     mapping = "pathname"
     reactions_enabled = "1"
     emit_metadata = "0"
-    theme = "light"
+    theme = "peach"
     lang = "en"
 
   # Configuration of math rendering
   [params.math]
-    renderer = "katex" # one of "mathjax" / "katex" 
+    renderer = "mathjax" # one of "mathjax" / "katex" 
 
   # Social icons may appear on homepage and in site header or footer
   # Configure show/hide above - add as many as you like below
@@ -105,31 +105,15 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/gsparsh220598"
   [[params.social]]
-      icon      = "bluesky" # icon name without the 'fa-'
+      icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://bsky.app/"
+      url       = "https://www.linkedin.com/in/sparsh-gupta-a49b7a156"
   [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
+      icon      = "kaggle" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
-  [[params.social]]
-      icon      = "x-twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
-  [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+      url       = "https://www.kaggle.com/gsparsh2205"
 
 [taxonomies]
   category = "categories"
@@ -140,7 +124,7 @@ enableEmoji = true
   # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Sparsh"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -153,16 +137,6 @@ enableEmoji = true
     title = "Project Portfolio"
     url = "/project/"
     weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 4
-  [[menu.header]]
-    name = "A collection"
-    title = "A collection"
-    url = "/collection/"
-    weight = 5
   [[menu.header]]
     name = "Elements"
     title = "Element Page"
@@ -180,11 +154,6 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
