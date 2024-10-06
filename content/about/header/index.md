@@ -1,9 +1,9 @@
 ---
 ## Configure header of page
 text_align_right: false
-show_title_as_headline: true
+show_title_as_headline: false
 headline: |
-  Hi, my name is Sparsh Gupta. Nice to meet you.
+  Hi,  Nice to meet you. My name is Sparsh Gupta.
 ---
 
 <!-- this is a subheadline -->
