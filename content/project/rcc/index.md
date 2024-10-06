@@ -19,36 +19,11 @@ title: is it a rice field?
 ---
 ---
 
-### Functional Form
+## Problem Statement
+- The challenge's goal is to predict the presence or non-presence of rice crops at a given location.
+- This challenge will consider satellite data from the European Copernicus (Sentinel-1 and Sentinel-2) program and NASA's Landsat program.
 
-This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
-(`/content/forms/contact.md`). Of course, the example shown below (`your@email.here`) must not be used. Please use your actual email address.
-
-```toml
-# please replace with a valid Formspree form id or email address
-formspree_form_id: your@email.here
-```
-
-Update that file and you're ready to begin receiving submissions. Just submit
-the active form for the first time, and complete the email address verification
-step with Formspree, and your contact form is live. The next time someone
-fills it out, the submission will land in your inbox.
-
-### Multiple Layouts
-
-The files included with the theme have a contact page ready for copy/paste, or
-you can type `hugo new forms/contact.md` and you're off to the races. There are two
-layouts for `forms` – `split-right`, and `split-left` – you guessed it, one puts
-the form on the right and the other on the left. You just fill out the front
-matter, and the rest is automatic.
-
-```toml
-# layout options: split-right or split-left
-layout: split-right
-```
-
-![Contact Form Split Right Layout Screenshot](built-in-contact-form-screenshot.png)
-
-Both layouts display the page title and description opposite the form, and you
-can also choose to show your social icon links if you have those configured in
-the `config.toml` file.
+## Data Extraction
+Satellite data is a unique and valuable tool for studying agriculture. Participants considered using optical data from Sentinel-2 and Landsat and radar data from Sentinel-1 in this challenge. All of these datasets are readily available from the Microsoft Planetary Computer ([HERE](https://planetarycomputer.microsoft.com/catalog)). Participants can choose one or more of these satellite datasets for their solution.
+- Extracting data over An Giang province in the Mekong Delta in Vietnam.
+- 5x5 bounding boxes from November 2021 to August 2022
