@@ -16,6 +16,8 @@ subtitle: An Graduate ML project
 tags:
 - hugo-site
 title: is it a rice field?
+---
+---
 
 ### Functional Form
 
