@@ -10,11 +10,11 @@ link_list:
 - name: The Brothers Karamazov
   url: https://en.wikipedia.org/wiki/The_Brothers_Karamazov
 - name: Godaan - Munshi Premchand
-  url: https://en.wikipedia.org/wiki/Fyodor Dostoevsky bibliography
+  url: https://en.wikipedia.org/wiki/Godaan
 - name: Lex Fridman Podcast
   url: https://lexfridman.com/podcast
 - name: Coffee
-  url: https://en.wikipedia.org/wiki/Specialty_coffee
+  url: https://www.subko.coffee/
 ---
 
 ** index doesn't contain a body, just front matter above.
