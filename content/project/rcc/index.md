@@ -15,7 +15,7 @@ links:
 subtitle: An Graduate ML project
 tags:
 - hugo-site
-title: is it a rice field?
+title: Rice Field Identification Using Multi-Spectral and Radar Satellite Imagery
 ---
 ---
 
@@ -78,6 +78,8 @@ As discussed previously, it is possible to use optical and radar data to track t
 ## Feature Selection
 - Variance Thresholding
 - RFECV with XGBoost to select 100 features
+
+<!-- TODO: add tsne plot with explanation -->
 
 ## Data Modeling
 
