@@ -29,9 +29,9 @@ enableEmoji = true
     
 [params]
   orgName = "Sparsh Gupta"
-  orgLocal = "Anywhere"
+  orgLocal = 
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
-  favicon = "/img/favicon.ico"
+  favicon = "/img/SG.png"
   logo = "/img/home.png"
   mainSections = ["blog", "project"]
   navallcaps = true
