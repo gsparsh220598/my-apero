@@ -3,6 +3,8 @@ author: Sparsh Gupta
 categories:
 - UTD
 - Python
+- cross-validation
+- ensembling
 date: "2024-04-30"
 draft: false
 excerpt: Satellite data is a unique and valuable tool for studying agriculture. Participants considered using optical data from Sentinel-2 and Landsat and radar data from Sentinel-1 in this challenge.
@@ -12,7 +14,7 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/gsparsh220598/Rice-Crop-Prediction
-subtitle: A project to showcase the power of a cross-validation in improving model performance and robustness.
+subtitle: A project to showcase the power of a cross-validation and ensembling in improving model performance and robustness.
 tags:
 - hugo-site
 title: Rice Field Identification Using Multi-Spectral and Radar Satellite Imagery
