@@ -12,7 +12,7 @@ links:
   icon_pack: fab
   name: code
   url: https://github.com/gsparsh220598/Rice-Crop-Prediction
-subtitle: An Graduate ML project
+subtitle: A project to showcase the power of a cross-validation in improving model performance and robustness.
 tags:
 - hugo-site
 title: Rice Field Identification Using Multi-Spectral and Radar Satellite Imagery
