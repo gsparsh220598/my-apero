@@ -29,7 +29,7 @@ enableEmoji = true
     
 [params]
   orgName = "Sparsh Gupta"
-  orgLocal = ""
+  orgLocal = "India"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/SG.png"
   logo = "/img/home.png"
