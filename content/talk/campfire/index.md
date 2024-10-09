@@ -1,8 +1,8 @@
 ---
-author: Alison Hill
+author: Sparsh Gupta
 categories:
-- workshop
-date: "2021-01-12"
+- Talk
+date: "2023--12"
 date_end: "2021-01-13"
 draft: false
 event: rstudio::global(2021)
